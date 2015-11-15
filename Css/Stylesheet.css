@@ -27,3 +27,20 @@ header {
     clear: both;
     position: relative;
 }
+#login {
+    right: 0;
+    padding: 0 0 0 0;
+    line-height: 2px ;
+    font-size: 20px;
+    position: absolute;
+}
+#login ul {
+
+}
+#login li {
+    padding: 0 5px 0 5px;
+    font-size: 15px;
+    line-height: 30px;
+    border:2px black solid;
+    border-top: 0px ;
+}
