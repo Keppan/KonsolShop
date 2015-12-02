@@ -1,44 +1,30 @@
 body{
     background-color: white;
+    margin: 0;
     
 }
 .header {
-    width: 99%;
-    position:absolute; 
+}
+header {
+    width: 100%;
+    position:fixed; 
     background-color: grey;
-    top: 0;
-    left: 0%;
-    right: 0;
     font-size: 30px;
-    padding: 0 0 0% 0;
-    margin: 0 0 0 0;
-    line-height: 100px;
-    min-width: 99% ;
-    max-height: 100px;
+    min-width: 100% ;
     color: black;
     z-index: -1;
     font-family: 'VT323', ;
 
 }
-header {
-}
-.nav ul {
+nav ul {
     margin: 0% 0 0% 0;
     top:0;
-    position: relative;
     padding: 0;
 }
-.nav li {
+nav li {
     display: inline-block;
-    padding: 0px 20px 0px 20px;
-    clear: both;
-    position: relative;
+    float: right;
 
-}
-.nav li img {
-    width: 40px;
-    height: 40px;
-    padding: 0 10px 0 0;
 
 }
 #login {
