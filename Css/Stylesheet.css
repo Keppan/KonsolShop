@@ -10,7 +10,7 @@ nav {
     height: 150px;
     margin: ;
     display: block;
-    box-shadow: 0px 10px 6px -6px rgba(0,0,0,0.55);
+    box-shadow: 0px 2px 9px 0px rgba(50, 50, 50, 0.6);
     font-family: 'Raleway', sans-serif;
     font-weight: 600;
     text-shadow: 0px 1px 1px #4d4d4d;
@@ -27,24 +27,35 @@ nav ul li {
     display: inline-block;
 
 }
+form{
+    margin:0;
+    float: left;
+    margin: 75px 0 0 550px;
+}
+.search { 
+    padding:8px 60px 8px 5px;
+}
+.rounded { 
+    border-radius:15px; 
+    border: transparent 1px solid;
+}
 #nav {
     bottom: 0;
-    position: relative;
-    margin: 55px 0 0 0;
+    margin: 0px 0 0 0;
     padding: 0;
     font-size: 40px;
 }
 #nav ul {
+    float: right;
 }
 #nav li {
     padding: 10px 20px 10px 20px;
-    margin: 0 40px 0 0;  
-    transition: all 1s linear;
+    margin: 55px 40px 0 0;  
+
 }
 #nav li:hover {
-    transition: all 1s linear;
+    transition: color 1s linear;
     color: #13AAB2;
-
 }
 #login {
     right: 0;
