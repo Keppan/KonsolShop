@@ -10,14 +10,14 @@ nav {
     height: 150px;
     margin: ;
     display: block;
-    box-shadow: 0px 3px 12px -1px rgba(0,0,0,0.55);
+    box-shadow: 0px 10px 6px -6px rgba(0,0,0,0.55);
     font-family: 'Raleway', sans-serif;
     font-weight: 600;
     text-shadow: 0px 1px 1px #4d4d4d;
     color: #848484;
 }
 nav img {
-    padding: 10px 0 0 10px;
+    padding: 5px 0 0 80px;
     position: fixed;
 }
 nav ul {
@@ -30,18 +30,21 @@ nav ul li {
 #nav {
     bottom: 0;
     position: relative;
-    margin: 77px 0 0 0;
+    margin: 55px 0 0 0;
     padding: 0;
     font-size: 40px;
-    text-align: center;
 }
 #nav ul {
-    padding-left: 500px;
-    margin-left: 600px ;
 }
 #nav li {
-    padding: 0 20px 0 20px;
-    border: black solid 1px;
+    padding: 10px 20px 10px 20px;
+    margin: 0 40px 0 0;  
+    transition: all 1s linear;
+}
+#nav li:hover {
+    transition: all 1s linear;
+    color: #13AAB2;
+
 }
 #login {
     right: 0;
@@ -49,11 +52,16 @@ nav ul li {
     font-size: 20px;
 }
 #login ul {
-    margin: 0 0 0 0;
+    margin: 0 5px 0 0;
 }
 #login li {
-    padding: 0 0px 0 0px;
     font-size: 15px;
-    border:2px black solid;
     border-top: 0px ;
+    margin: 0 10px 0 0;
+    color: rgba(0,0,0,0.6);
+    text-shadow: 2px 2px 3px rgba(255,255,255,0.1);
+}
+#border {
+    border-right: 1px black solid;
+    padding-right: 10px ;
 }
