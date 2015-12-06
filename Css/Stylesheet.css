@@ -1,46 +1,37 @@
 body{
     background-color: white;
     margin: 0;
-    
 }
-.header {
-}
-header {
+nav {
+    background-color: red;
+    position: fixed;
+    top: 0;
     width: 100%;
-    position:fixed; 
-    background-color: grey;
-    font-size: 30px;
-    min-width: 100% ;
-    color: black;
-    z-index: -1;
-    font-family: 'VT323', ;
-
+    height: 150px;
+    margin: ;
+}
+nav img {
+    padding: 10px 0 0 10px;
+    position: fixed;
 }
 nav ul {
-    margin: 0% 0 0% 0;
-    top:0;
-    padding: 0;
+    text-align: right;
 }
-nav li {
+nav ul li {
     display: inline-block;
-    float: right;
-
 
 }
 #login {
     right: 0;
-    padding: 0 0 0 0;
-    line-height: 2px ;
+    margin: 0 0 0 0;
     font-size: 20px;
-    position: absolute;
 }
 #login ul {
-
+    margin: 0 0 0 0;
 }
 #login li {
-    padding: 0 5px 0 5px;
+    padding: 0 0px 0 0px;
     font-size: 15px;
-    line-height: 30px;
     border:2px black solid;
     border-top: 0px ;
 }
