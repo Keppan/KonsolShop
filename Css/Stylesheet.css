@@ -31,8 +31,12 @@ nav ul li {
 }
 form{
     margin:0;
-    float: left;
-    margin: 75px 0 0 550px;
+    float: right;
+    margin: 75px 100px 0 20px;
+}
+a {
+    text-decoration: none;
+}
 }
 .wrapper {
     height: 100%;
@@ -43,7 +47,7 @@ form{
 }
 .rounded { 
     border-radius:15px; 
-    border: transparent 1px solid;
+    border: transparent 2px solid;
 }
 #nav {
     bottom: 0;
@@ -56,8 +60,8 @@ form{
 
 }
 #nav li {
-    padding: 10px 20px 10px 20px;
-    margin: 55px 40px 0 0; 
+    padding: 10px 0px 10px 0px;
+    margin: 55px 60px 0 0; 
     color: #848484;
     transition: color 1s linear;
 
@@ -94,6 +98,7 @@ form{
     text-align:; 
     position:fixed;
     background-color: rgb(188, 188, 188);
+    border-top:6px solid #DCDCDC;
 }
 .footer p {
     display: inline-block;
@@ -107,11 +112,25 @@ form{
 }
 #trademark{
     float: right;
-    margin:0px 0 0 0 ;
+    margin:0px 20px 0 0 ;
     line-height: 60px;
 }
 #call {
     padding: 0 10px 0 10px ;
+}
+
+@media (max-width:900px){
+
+    .wrapper{
+        width:100%;
+    }
+
+    {
+        width:auto;
+        margin-bottom:20px;
+        float:none;
+    }
+
 }
 @keyframes fadein {
     from { opacity:0;}
