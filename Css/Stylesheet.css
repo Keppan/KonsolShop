@@ -37,10 +37,13 @@ form{
 a {
     text-decoration: none;
 }
-}
+
 .wrapper {
     height: 100%;
     width: 100%;
+}
+input[type=text]{
+    color:#bcbcbc;
 }
 .search { 
     padding:8px 60px 8px 5px;
@@ -49,6 +52,7 @@ a {
     border-radius:15px; 
     border: transparent 2px solid;
 }
+
 #nav {
     bottom: 0;
     margin: 0px 0 0 0;
@@ -63,12 +67,14 @@ a {
     padding: 10px 0px 10px 0px;
     margin: 55px 60px 0 0; 
     color: #848484;
-    transition: color 1s linear;
+    transition: color 0.5s cubic-bezier(0, 0, 0.2, 1),text-shadow .3s;
 
 }
 #nav li:hover {
-    transition: color 1s linear;
-    color: #13AAB2;
+    transition: color 0.5s cubic-bezier(0, 0, 0.2, 1),text-shadow .3s;
+    text-shadow: ;
+    text-shadow: 0px 1px 1px #064950;
+    color: #0B737D;
 }
 #login {
     right: 0;
