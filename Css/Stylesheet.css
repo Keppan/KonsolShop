@@ -2,6 +2,7 @@ body{
     background-color: white;
     margin: 0;
     animation: fadein 1s;
+    display: inherit;
 }
 nav {
     background-color: rgb(188, 188, 188);
@@ -32,9 +33,6 @@ form{
     margin:0;
     float: left;
     margin: 75px 0 0 550px;
-}
-.notblack {
-    color: #848484;
 }
 .wrapper {
     height: 100%;
@@ -92,11 +90,29 @@ form{
     left: 0;
     right: 0;
     width: 100%;
-    height: 100px;
+    height: 60px;
     text-align:; 
     position:fixed;
     background-color: rgb(188, 188, 188);
     text-shadow: 0px 1px 1px #4d4d4d;
+}
+.footer p {
+    display: inline-block;
+    line-height: 0px;
+    padding-right: ;
+    font-family: 'Raleway', sans-serif;
+    padding-left:5px ;
+}
+.footer img {
+    margin-top: 5px ;;
+}
+#trademark{
+    float: right;
+    margin:0px 0 0 0 ;
+    line-height: 60px;
+}
+#call {
+    padding: 0 10px 0 10px ;
 }
 @keyframes fadein {
     from { opacity:0;}
