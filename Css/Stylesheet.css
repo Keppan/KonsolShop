@@ -120,20 +120,6 @@ input[type=text]{
 #call {
     padding: 0 10px 0 10px ;
 }
-
-@media (max-width:900px){
-
-    body{
-        width:100%;
-    }
-
-    {
-        width:auto;
-        margin-bottom:20px;
-        float:none;
-    }
-
-}
 @keyframes fadein {
     from { opacity:0;}
     to   { opacity:1;}
