@@ -14,6 +14,7 @@ nav {
     font-family: 'Raleway', sans-serif;
     font-weight: 600;
     text-shadow: 0px 1px 1px #4d4d4d;
+    z-index: -1
 
 }
 nav img {
@@ -38,6 +39,7 @@ a {
 }
 input[type=text]{
     color:#bcbcbc;
+    outline: none
 }
 .search { 
     padding:8px 60px 8px 5px;
@@ -130,14 +132,12 @@ input[type=text]{
 }
 .foretag{
     width: 100%;
-    margin: 15% auto 0px auto; 
+    margin: 11% auto 0px auto; 
     /*box-shadow: 0px 2px 9px 0px rgba(50, 50, 50, 0.6);*/
     background: rgba(255,255,255,1);
-    border-radius: 35px;
     text-align: left;
-    outline-color: rgb(126, 86, 107);
-    outline-style: none;
-    outline-width: 0px;
+    box-shadow: 0px 0px 100px 10px rgba(217,255,0,1);
+
 }
 .foretag p{
     font-family: Palatino, Georgia, 'Times New Roman', serif;
