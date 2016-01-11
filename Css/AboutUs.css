@@ -42,7 +42,7 @@ a {
     text-decoration: none;
 }
 input[type=text]{
-    color:#bcbcbc;
+    color:purple;
     outline: none
 }
 .search { 
@@ -151,6 +151,10 @@ input[type=text]{
 }
 .foretag h1{
     font-family: Palatino, Georgia, 'Times New Roman', serif;
+}
+.foretag li{
+    text-align: center;
+    list-style: none;
 }
 
 .wrapper{

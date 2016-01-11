@@ -40,7 +40,8 @@ a {
     text-decoration: none;
 }
 input[type=text]{
-    color:#bcbcbc;
+    color:purple;
+    outline: none
 }
 .search { 
     padding:8px 60px 8px 5px;
