@@ -4,6 +4,12 @@ body{
     margin: 0;
     animation: fadein 1s;
     display: inherit;
+    height: 100%;
+    width:100%;
+}
+html, body {
+    margin: 0;
+    height: 100%;
 }
 nav {
     background-color: rgb(188, 188, 188);
@@ -94,6 +100,14 @@ input[type=text]{
 #border {
     border-right: 1px black solid;
     padding-right: 10px ;
+}
+.wrapper {
+    height: 100%;
+    width: 100%;
+}
+.content {
+    clear: both;
+    width: 100%;
 }
 .footer {
     bottom: 0;
