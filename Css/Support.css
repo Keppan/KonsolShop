@@ -129,8 +129,11 @@ body{
    	height: 200%;
  }
 .discord{
-	position: absolute;
-	border:5px solid black;
-	margin: 10% 50% 0px 0px;
-
+	position: relative;
+     float: right;
+}
+.supp{
+     position: relative;;
+     width: 50%;
+     height: 50%;
 }
