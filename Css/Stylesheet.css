@@ -8,7 +8,7 @@ body {
     margin: 0;
     padding: 0;
     animation: fadein 1s;
-    background-color: white;
+    background-color: rgb(219, 219, 219);
     height: 75em;
     width: 100%;
     min-height: 75em;
@@ -115,6 +115,12 @@ input[type=text]{
     min-height: 1200px;
     padding-bottom: 4.1em;
 }
+.content p ,h1 {
+    text-align: center;
+    font-size: 2em;
+    font-family: 'IM Fell DW Pica', serif;
+    font-style: italic;
+}
 .footer {
     bottom: 0;
     left: 0;
@@ -159,19 +165,57 @@ input[type=text]{
         display: flex;
 }
 .window1 {
-    height: 50px;
-    width: 50px;
-    background-color: red;
+    border: 0px solid #000000;
+    box-shadow: 6px 6px 15px -2px rgba(0,0,0,0.51);
+    height: 22em;
+    width: 24em;
+    color: black;
+    background: repeating-linear-gradient(-55deg,transparent,transparent 10px,#ccc 10px,#ccc 20px);
+    margin: 0 auto;
+    font-size: 1em;
+    transition: all 0.2s ease-in-out;
+}
+.window1:hover {
+    transform: scale(1.1);
+    transition: all 0.5s ease-in-out;
+    position: relative;
+}
+.window1 p {
+    font-size: 1.5em;
+    font-family: 'Raleway', sans-serif;
+
 }
 .window2 {
-    height: 50px;
-    width: 50px;
-    background-color: red;
+    border: 0px solid #000000;
+    box-shadow: 6px 6px 15px -2px rgba(0,0,0,0.51);
+    height: 22em;
+    width: 24em;
+    color: black;
+    background: repeating-linear-gradient(-55deg,transparent,transparent 10px,#ccc 10px,#ccc 20px);
+    margin: 0 auto;
+    font-size: 1em;
+    transition: all 0.2s ease-in-out;
+}
+.window2:hover {
+    transform: scale(1.1);
+    transition: all 0.5s ease-in-out;
+    position: relative;
 }
 .window3 {
-    height: 50px;
-    width: 50px;
-    background-color: red;
+    border: 0px solid #000000;
+    box-shadow: 6px 6px 15px -2px rgba(0,0,0,0.51);
+    height: 22em;
+    width: 24em;
+    color: black;
+    background: repeating-linear-gradient(-55deg,transparent,transparent 10px,#ccc 10px,#ccc 20px);
+    margin: 0 auto;
+    font-size: 1em;
+    transition: all 0.2s ease-in-out;
+}
+.window3:hover {
+    transform: scale(1.1);
+    transition: all 0.5s ease-in-out;
+    position: relative;
 }
 /*
 #jssor_1 {
