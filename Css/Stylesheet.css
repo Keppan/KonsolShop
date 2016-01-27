@@ -142,23 +142,40 @@ input[type=text]{
 #call {
     padding: 0 10px 0 10px ;
 }
+.slideshow { 
+    position:relative; 
+    width:500px; 
+    height:332px;
+    margin: 0 auto; 
+}
+.slideshow img { 
+    position:absolute;
+    left:0; 
+    top:0; 
+}
+/*
 #jssor_1 {
     position: relative; overflow: hidden; visibility: hidden;
 }
-        /* jssor slider bullet navigator skin 01 css */
-        /*
+        *//*/ jssor slider bullet navigator skin 01 css *//*/
+
+        /*//*/
         .jssorb01 div           (normal)
         .jssorb01 div:hover     (normal mouseover)
         .jssorb01 .av           (active)
         .jssorb01 .av:hover     (active mouseover)
         .jssorb01 .dn           (mousedown)
-        */
+        *//*/
+
+        /*
         .jssorb01 {
             position: absolute;
         }
         .jssorb01 div, .jssorb01 div:hover, .jssorb01 .av {
             position: absolute;
-            /* size of bullet elment */
+            *//*/ size of bullet elment *//*/
+
+            /*
             width: 12px;
             height: 12px;
             filter: alpha(opacity=70);
@@ -172,7 +189,8 @@ input[type=text]{
         .jssorb01 .av { background-color: #fff; }
         .jssorb01 .dn, .jssorb01 .dn:hover { background-color: #555555; }
 
-        /* jssor slider arrow navigator skin 05 css */
+        *//*/ jssor slider arrow navigator skin 05 css *//*/
+
         /*
         .jssora05l                  (normal)
         .jssora05r                  (normal)
@@ -181,10 +199,14 @@ input[type=text]{
         .jssora05l.jssora05ldn      (mousedown)
         .jssora05r.jssora05rdn      (mousedown)
         */
+
+        /*
         .jssora05l, .jssora05r {
             display: block;
             position: absolute;
-            /* size of arrow element */
+            *//*//* size of arrow element *//*/
+
+            /*
             width: 40px;
             height: 40px;
             cursor: pointer;
@@ -198,8 +220,9 @@ input[type=text]{
         .jssora05l.jssora05ldn { background-position: -250px -40px; }
         .jssora05r.jssora05rdn { background-position: -310px -40px; }
 
-        /* jssor slider thumbnail navigator skin 09 css */
-        
+        *//*//* jssor slider thumbnail navigator skin 09 css *//*/
+
+        /*
         .jssort09-600-45 .p {
             position: absolute;
             top: 0;
@@ -221,6 +244,7 @@ input[type=text]{
             font-size: 20px;
             padding-left: 10px;
         }
+        */
 
 @keyframes fadein {
     from { opacity:0;}
