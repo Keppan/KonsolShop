@@ -155,6 +155,24 @@ input[type=text]{
     top:0;
     z-index: -2;
 }
+.window {
+        display: flex;
+}
+.window1 {
+    height: 50px;
+    width: 50px;
+    background-color: red;
+}
+.window2 {
+    height: 50px;
+    width: 50px;
+    background-color: red;
+}
+.window3 {
+    height: 50px;
+    width: 50px;
+    background-color: red;
+}
 /*
 #jssor_1 {
     position: relative; overflow: hidden; visibility: hidden;
