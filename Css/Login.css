@@ -20,22 +20,15 @@ body {
 .search { 
     padding: 8px 45% 8px 5px;
     margin: 5%;
-    background-color: rgb(168, 168, 168);
+    background-color: rgb(220, 220, 220);
 }
 .rounded { 
     border-radius:15px; 
     border: transparent 2px solid;
 }
-input[placeholder] {
+input[type] {
     color: white;
-}
-input[type=text] {
-    color: black;
     outline: none;
-}
-input[type=password] {
-    outline: none;
-    color: black;
 }
 form {
 	margin: 5% auto 5% auto
