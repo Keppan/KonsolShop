@@ -15,4 +15,33 @@ body {
     box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.4);
     border: 0px;
     border-radius: 5px;
+    animation: mcfly 0.5s;
+}
+.search { 
+    padding: 8px 45% 8px 5px;
+    margin: 5%;
+    background-color: rgb(168, 168, 168);
+}
+.rounded { 
+    border-radius:15px; 
+    border: transparent 2px solid;
+}
+input[placeholder] {
+    color: white;
+}
+input[type=text] {
+    color: black;
+    outline: none;
+}
+input[type=password] {
+    outline: none;
+    color: black;
+}
+form {
+	margin: 5% auto 5% auto
+}
+
+@keyframes mcfly {
+	from { margin-top: -40%;}
+	to   { margin-top: 10%;}
 }
