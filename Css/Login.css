@@ -33,7 +33,30 @@ input[type] {
 form {
 	margin: 5% auto 5% auto
 }
-
+.row {
+	height: 50px;
+	width: 100%;
+	background-color: orange;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.4);
+}
+.button {
+	height: 50px;
+	width: 40%;
+	background-color: lightgreen;	
+	margin: 10% auto auto auto;
+    border: 0px;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.4);
+}
+.button p {
+	font-size: 2em;
+	padding: 2%;
+	color: white;
+    font-family: 'Raleway', Georgia, 'Times New Roman', serif;
+    font-weight: 600;
+    text-shadow: 0px 4px 10px rgba(9, 238, 144, 0.85);
+}
 @keyframes mcfly {
 	from { margin-top: -40%;}
 	to   { margin-top: 10%;}
