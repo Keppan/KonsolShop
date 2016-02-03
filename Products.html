@@ -13,7 +13,16 @@
 		  <script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
    		  <script type="text/javascript" src="js/jssor.slider.mini.js"></script>
    		  <script type="text/javascript" src="js/slider.js"></script>
-
+		  <script>
+				function toggleClass(el){
+					if(el.className == "purchasebutton"){
+					el.className = "test";
+					} 
+					else {
+					el.className = "purchasebutton";
+					}
+				}
+</script>
 	</head>
 	<body>
 		<div class="wrapper">
@@ -40,32 +49,32 @@
 				<div class="product">
 					<div class="image"><img src="Resources\Templogo.png"></div>
 					<div class="text"><p>TESS TEST </p></div>
-					<div class="purchasebutton" onclick="this.className='test'"><p>Add to cart!</p></div>
+					<div class="purchasebutton" onclick="toggleClass(this)"><p>Add to cart!</p></div>
 				</div>
 				<div class="product">
 					<div class="image"><img src="Resources\Templogo.png"></div>
 					<div class="text"><p>TESS TEST </p></div>
-					<div class="purchasebutton" onclick="this.className='test'"><p>Add to cart!</p></div>
+					<div class="purchasebutton" onclick="toggleClass(this)"><p>Add to cart!</p></div>
 				</div>
 				<div class="product">
 					<div class="image"><img src="Resources\Templogo.png"></div>
 					<div class="text"><p>TESS TEST </p></div>
-					<div class="purchasebutton" onclick="this.className='test'"><p>Add to cart!</p></div>
+					<div class="purchasebutton" onclick="toggleClass(this)"><p>Add to cart!</p></div>
 				</div>
 				<div class="product">
 					<div class="image"><img src="Resources\Templogo.png"></div>
 					<div class="text"><p>TESS TEST </p></div>
-					<div class="purchasebutton" onclick="this.className='test'"><p>Add to cart!</p></div>
+					<div class="purchasebutton" onclick="toggleClass(this)"><p>Add to cart!</p></div>
 				</div>
 				<div class="product">
 					<div class="image"><img src="Resources\Templogo.png"></div>
 					<div class="text"><p>TESS TEST </p></div>
-					<div class="purchasebutton" onclick="this.className='test'"><p>Add to cart!</p></div>
+					<div class="purchasebutton" onclick="toggleClass(this)"><p>Add to cart!</p></div>
 				</div>
 				<div class="product">
 					<div class="image"><img src="Resources\Templogo.png"></div>
 					<div class="text"><p>TESS TEST </p></div>
-					<div class="purchasebutton" onclick="this.className='test'"><p>Add to cart!</p></div>
+					<div class="purchasebutton" onclick="toggleClass(this)"><p>Add to cart!</p></div>
 				</div>
 			</div>
 			<div class="footer">
