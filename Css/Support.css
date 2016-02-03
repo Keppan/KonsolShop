@@ -1,7 +1,7 @@
 body{
      background-color: white;
      margin: 0;
-     animation: fadein 1s;
+     animation: fadein 1s; /* Fade animation */
      display: inherit;
  }
  nav {
@@ -91,7 +91,7 @@ body{
      border-right: 1px black solid;
      padding-right: 10px ;
  }
- .footer {
+ .footer { /* Footer bar */
      bottom: 0;
      left: 0;
      right: 0;
@@ -120,7 +120,7 @@ body{
  #call {
      padding: 0 10px 0 10px ;
  }
- @keyframes fadein {
+ @keyframes fadein { /* Ketframe animation */
      from { opacity:0;}
      to   { opacity:1;}
  } 
@@ -128,11 +128,11 @@ body{
      width: 100%;
      height: 100%;
  }
-.discord{
+.discord{ /* Discord Window */
      position: relative;
      float: right;
 }
-.supp{
+.supp{ 
      position: absolute;;
      margin: 10% auto 0px auto;
 }

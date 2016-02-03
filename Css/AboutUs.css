@@ -44,7 +44,7 @@ form{
     background-color: red;
 }
 a {
-    text-decoration: none;
+    text-decoration: none; /* Fix underline to none on links */
 }
 input[type=text]{
     color:purple;
@@ -74,7 +74,7 @@ input[type=text]{
     padding: 10px 0px 10px 0px;
     margin: 55px 60px 0 0; 
     color: #848484;
-    transition: color 0.5s cubic-bezier(0, 0, 0.2, 1),text-shadow .3s;
+    transition: color 0.5s cubic-bezier(0, 0, 0.2, 1),text-shadow .3s;/* Transisiton */ 
 
 }
 #nav li:hover {
@@ -143,14 +143,13 @@ input[type=text]{
 #call {
     padding: 0 10px 0 10px ;
 }
-@keyframes fadein {
+@keyframes fadein { /* Keyframe Fade animation */
     from { opacity:0;}
     to   { opacity:1;}
 }
-.foretag{
+.foretag{ /* Foretags information */
     width: 100%;
     margin: 0.4em auto 0px auto;
-    /* box-shadow: 0px 2px 9px 0px rgba(50, 50, 50, 0.6); */
     background: rgba(255,255,255,1);
     text-align: left;
     box-shadow: 0px 0px 25px -2px #0B737D;

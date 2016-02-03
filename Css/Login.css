@@ -15,7 +15,7 @@ body {
     box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.4);
     border: 0px;
     border-radius: 5px;
-    animation: mcfly 0.5s;
+    animation: mcfly 0.5s; /* Fly animation of loginbar */
 }
 .search { 
     padding: 8px 45% 8px 5px;
@@ -60,12 +60,13 @@ form {
 .return {
     height: 50px;
     width: 10%;
+    min-width: 190px;
     background-color: teal;   
     border: 0px;
     border-radius: 5px;
     text-align: center;
     box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.4);
-    animation: fade 1s;
+    animation: fade 1s; /* Fade animation of "Return to home" box */
 }
 .return p {
     font-size: 1.3em;
@@ -79,11 +80,11 @@ form {
 a {
     text-decoration: none;
 }
-@keyframes mcfly {
+@keyframes mcfly { /* Keyframe animation */
 	from { margin-top: -40%;}
 	to   { margin-top: 10%;}
 }
-@keyframes fade {
+@keyframes fade { /* Keyframe animation */
     from {opacity: 0;}
     to   {opacity: 1;}
 }

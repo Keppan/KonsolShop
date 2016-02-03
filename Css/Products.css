@@ -7,7 +7,7 @@ body {
     position:relative;
     margin: 0;
     padding: 0;
-    animation: fadein 1s;
+    animation: fadein 1s; /* face Animation */
     background-color: rgb(219, 219, 219);
     height: 75em;
     width: 100%;
@@ -159,7 +159,7 @@ Here the products css starts!
 
  */
  .container {
- 	min-width: 1650px
+ 	min-width: 1650px; /* Setting max width to fix resizing */
  }
 .product {
 	position: relative;
@@ -201,14 +201,14 @@ Here the products css starts!
 	text-shadow:0px 1px 0px #ffffff;
 	transition: * 2s;
 }
-.purchasebutton:hover {
+.purchasebutton:hover { /* Hover effect */
 	background-color:#dfdfdf;
 }
 
 .purchasebutton p {
 	margin: 0;
 }
-.newclass {
+.newclass { /* Purchasebutton class change */
 	margin: 0 auto 0 auto;
 	height: 10%;
 	width: 50%;
