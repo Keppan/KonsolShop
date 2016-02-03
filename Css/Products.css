@@ -164,6 +164,7 @@ Here the products css starts!
 	background-color: white;
 	margin: 10% 0 0 10%;
 	box-shadow: 0px 2px 2px rgba(0,0,0,0.51);
+	display: inline-block;
 }
 .image {
 	width: 100%;
@@ -185,7 +186,7 @@ Here the products css starts!
 	cursor:pointer;
 	color:#777777;
     font-family: 'Raleway', sans-serif;
-	font-size:15px;
+    font-size: 12px;
 	font-weight:bold;
 	padding:6px 24px;
 	text-decoration:none;
@@ -210,7 +211,7 @@ Here the products css starts!
 	cursor:pointer;
 	color:#ffffff;
     font-family: 'Raleway', sans-serif;
-	font-size:15px;
+    font-size: 12px;
 	font-weight:bold;
 	padding:6px 24px;
 	text-decoration:none;
