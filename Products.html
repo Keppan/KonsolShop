@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="Css/Products.css">
+		<link href='https://fonts.googleapis.com/css?family=VT323' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Raleway:400,600' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=IM+Fell+DW+Pica:400italic' rel='stylesheet' type='text/css'>
+		<title>HighwareShop Home</title>
+
+
+		  <script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+   		  <script type="text/javascript" src="js/jssor.slider.mini.js"></script>
+   		  <script type="text/javascript" src="js/slider.js"></script>
+		  <script>
+				function toggleClass(el){
+					if(el.className == "purchasebutton"){
+					el.className = "newclass";
+					} 
+					else {
+					el.className = "purchasebutton";
+					}
+				}
+</script>
+	</head>
+	<body>
+		<div class="wrapper">
+        <!-- NavigationBar -->
+            <div class="header">
+		      	<nav>
+			 	   <a href="index.html"><img src="Resources\Templogo.png" alt="Logo" width="260" height="130"></a>
+				    <ul id="login">
+					   <a href="Login.html"><li id="border">Register</li>
+					   <li>Login</li></a>
+				    </ul>
+				    <form>
+					   <span><input type="text" class="search rounded" placeholder="Search..."></span>
+				    </form>
+				    <ul id="nav">
+					   <li>Products</li>
+					   <a href="AboutUs.html"><li>About us</li></a>
+					   <a href="Support.html"><li>Support</li></a>
+				    </ul>
+			   </nav>
+            </div>
+            <!--End of NavigationBar -->
+			<div class="content">
+			<div class="container">
+				<div class="product">
+					<div class="image"><img src="Resources\test1.jpg"></div>
+					<div class="text"><p>The Xbox One</p></div>
+					<div class="purchasebutton" onclick="toggleClass(this)"><p>Add to cart</p></div>
+				</div>
+				<div class="product">
+					<div class="image"><img src="Resources\test2.jpg"></div>
+					<div class="text"><p>The Playstation 4</p></div>
+					<div class="purchasebutton" onclick="toggleClass(this)"><p>Add to cart</p></div>
+				</div>
+				<div class="product">
+					<div class="image"><img src="Resources\test4.png"></div>
+					<div class="text"><p>The WiiU </p></div>
+					<div class="purchasebutton" onclick="toggleClass(this)"><p>Add to cart</p></div>
+				</div>
+				<div class="product">
+					<div class="image"><img src="Resources\test3.jpg"></div>
+					<div class="text"><p>The 1st Potato </p></div>
+					<div class="purchasebutton" onclick="toggleClass(this)"><p>Add to cart</p></div>
+				</div>
+				<div class="product">
+					<div class="image"><img src="Resources\test3.jpg"></div>
+					<div class="text"><p>The 2nd Potato </p></div>
+					<div class="purchasebutton" onclick="toggleClass(this)"><p>Add to cart</p></div>
+				</div>
+				<div class="product">
+					<div class="image"><img src="Resources\test3.jpg"></div>
+					<div class="text"><p>The 3rd Potato </p></div>
+					<div class="purchasebutton" onclick="toggleClass(this)"><p>Add to cart</p></div>
+				</div>
+			</div>
+			</div>
+			<div class="footer">
+<!-- FooterBar -->
+			<footer>
+				<p>Follow Us On</p>
+				<a href="http://Facebook.com" target="_blank"><img src="Resources/fb.png" height="40px" width="40px"></a>
+				<a href="http://Youtube.com" target="_blank"><img src="Resources/yt.png" height="40px" width="40px"></a>
+				<a href="http://Twitter.com" target="_blank"><img src="Resources/twitter.png" height="40px" width="40px"></a>
+				<a href="http://plus.google.com" target="_blank"><img src="Resources/g+.png" height="40px" width="40px"></a>
+				<p id="call">Or Call Us</p>
+				<a href="support.html"><img src="Resources/call.png" height="40px" width="40px"></a>
+				<p id="trademark"><a href="https://www.iconfinder.com/iconsets/social-media-2049"> Licences</a>! ------ Insert Trademark Here! ®</p>
+			</footer>
+<!-- End of FooterBar -->
+			</div>
+		</div>
+	</body>
