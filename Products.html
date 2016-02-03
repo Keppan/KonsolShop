@@ -16,7 +16,7 @@
 		  <script>
 				function toggleClass(el){
 					if(el.className == "purchasebutton"){
-					el.className = "test";
+					el.className = "newclass";
 					} 
 					else {
 					el.className = "purchasebutton";
@@ -31,8 +31,8 @@
 		      	<nav>
 			 	   <a href="index.html"><img src="Resources\Templogo.png" alt="Logo" width="260" height="130"></a>
 				    <ul id="login">
-					   <li id="border">Register</li>
-					   <li>Login</li>
+					   <a href="Login.html"><li id="border">Register</li>
+					   <li>Login</li></a>
 				    </ul>
 				    <form>
 					   <span><input type="text" class="search rounded" placeholder="Search..."></span>
@@ -60,6 +60,21 @@
 				<div class="product">
 					<div class="image"><img src="Resources\test4.png"></div>
 					<div class="text"><p>The WiiU </p></div>
+					<div class="purchasebutton" onclick="toggleClass(this)"><p>Add to cart</p></div>
+				</div>
+				<div class="product">
+					<div class="image"><img src="Resources\test3.jpg"></div>
+					<div class="text"><p>The 1st Potato </p></div>
+					<div class="purchasebutton" onclick="toggleClass(this)"><p>Add to cart</p></div>
+				</div>
+				<div class="product">
+					<div class="image"><img src="Resources\test3.jpg"></div>
+					<div class="text"><p>The 2nd Potato </p></div>
+					<div class="purchasebutton" onclick="toggleClass(this)"><p>Add to cart</p></div>
+				</div>
+				<div class="product">
+					<div class="image"><img src="Resources\test3.jpg"></div>
+					<div class="text"><p>The 3rd Potato </p></div>
 					<div class="purchasebutton" onclick="toggleClass(this)"><p>Add to cart</p></div>
 				</div>
 			</div>
