@@ -254,6 +254,12 @@ user-select: none;
 .newclass p {
 	margin: 0;
 }
+h6 {
+    margin: 0px;
+    color: red;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+}
 ::-webkit-scrollbar {
     width: 12px;
 }
